@@ -5,16 +5,13 @@ pluginManagement {
         gradlePluginPortal()
         google()
         maven {
-            name = "GitHubPackages"
+            name = "githubPackages"
             url = uri("https://maven.pkg.github.com/revanced/registry")
-            credentials {
-                username = providers.gradleProperty("gpr.user").orNull ?: System.getenv("GITHUB_ACTOR")
-                password = providers.gradleProperty("gpr.key").orNull ?: System.getenv("GITHUB_TOKEN")
-            }
+            credentials(PasswordCredentials::class)
         }
     }
 }
 
 plugins {
-    id("app.revanced.patches") version "1.0.0-dev.5"
+    id("app.revanced.patches") version "1.0.0-dev.8"
 }
