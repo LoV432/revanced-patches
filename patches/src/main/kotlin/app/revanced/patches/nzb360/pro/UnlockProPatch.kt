@@ -5,7 +5,7 @@ import app.revanced.patcher.extensions.addInstructions
 
 @Suppress("unused")
 val unlockProPatch = bytecodePatch(
-    name = "Unlock Pro",
+    name = "Unlock Pro Patch",
 ) {
     compatibleWith("com.kevinforeman.nzb360")
 
