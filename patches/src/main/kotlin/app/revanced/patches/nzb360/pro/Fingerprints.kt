@@ -9,7 +9,6 @@ import app.revanced.patcher.patch.BytecodePatchContext
 import com.android.tools.smali.dexlib2.AccessFlags
 
 val BytecodePatchContext.isUnlockedMethod by gettingFirstMethodDeclaratively {
-    definingClass("Lcom/kevinforeman/nzb360/NZB360LicenseHelper;")
     name("isUnlocked")
     accessFlags(AccessFlags.PUBLIC, AccessFlags.FINAL)
     returnType("Z")
