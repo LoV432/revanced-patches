@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/LoV432/revanced-patches/compare/v1.0.4...v1.1.0) (2026-03-15)
+
+
+### Features
+
+* update ([e8280a1](https://github.com/LoV432/revanced-patches/commit/e8280a1dbe5027ddde7904cf23c1a363930c4f60))
+
 # 1.0.0 (2026-03-15)
 
 
