@@ -10,7 +10,7 @@ val unlockProPatch = bytecodePatch(
     compatibleWith("com.kevinforeman.nzb360")
 
     apply {
-        isUnlockedFingerprint.addInstructions(
+        isUnlockedFingerprint.mutableMethod.addInstructions(
             0,
             """
             const/4 v0, 0x1
