@@ -1,7 +1,7 @@
 package app.revanced.patches.nzb360.pro
 
 import app.revanced.patcher.patch.bytecodePatch
-import app.revanced.patcher.util.smali.toInstruction
+import app.revanced.patcher.extensions.addInstructions
 
 @Suppress("unused")
 val unlockProPatch = bytecodePatch(
